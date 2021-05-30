@@ -7,5 +7,6 @@ namespace Basic_Ops
     interface IUserValidationService
     {
         bool Validate(User user);
+
     }
 }

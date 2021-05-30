@@ -7,7 +7,7 @@ namespace Basic_Ops
     class UserManager : IUserService
     {
         IUserValidationService _userValidationService;
-
+        //The verification process is written to the constructor to automate the save process.
         public UserManager(IUserValidationService userValidationService)
         {
             _userValidationService = userValidationService;
